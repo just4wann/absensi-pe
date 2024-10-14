@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Semibold;
+  src: url(assets/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(assets/fonts/Poppins-Medium.ttf);
+}
+
+* {
+  font-family: Poppins-Medium;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.poppins-semibold {
+  font-family: Poppins-Semibold;
+}
+
+.p-row-odd {
+  background-color: #bdbdbd;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  /*background: #f1f1f1;*/
+  background: #2e2e2e;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  /*background: #cfcfcf;*/
+  background: #474747;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /*background: #bdbdbd;*/
+  background: #505050;
+
+}
